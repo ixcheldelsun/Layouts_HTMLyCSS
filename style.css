@@ -125,6 +125,7 @@ picture{
 
 .text-container a{
     text-decoration: none;
+    color: blue;
 }
 
 footer{
