@@ -32,8 +32,26 @@ nav .nav-img {
     bottom: 0.4rem;
 }
 
+nav .menu-img {
+    background-image: url('https://icon-library.com/images/google-menu-icon/google-menu-icon-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+nav .nav-img .icon-img {
+    border-radius: 50%;
+}
+
 nav img {
     width: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
 }
 
 main {
