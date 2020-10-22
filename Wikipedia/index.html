@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clon de Wikipedia</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+    <header>
+        <picture>
+            <img src="./image/wikipedia_logo.png" alt="">
+        </picture>
+    </header>
+    <main>
+        <section class="central-container">
+            <picture class='central-logo'>
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="">
+            </picture>
+            <section class='lang-container'>
+                <div class="lang-container__item eng">
+                    <a href="#">
+                        <strong>English</strong>
+                        <small>6 168 000+ articles</small>
+                    </a>
+                </div>
+                <div class="lang-container__item esp">
+                    <a href="#">
+                        <strong>Español</strong>
+                        <small>1 630 000+ artículos</small>
+                    </a>
+                </div>
+                <div class="lang-container__item jap">
+                    <a href="#">
+                        <strong>日本語</strong>
+                        <small>1 231 000+ 記事</small>
+                    </a>
+                </div>
+                <div class="lang-container__item deu">
+                    <a href="#">
+                        <strong>Deutsch</strong>
+                        <small>2 486 000+ Artikel</small>
+                    </a>
+                </div>
+                <div class="lang-container__item ru">
+                    <a href="#">
+                        <strong>Русский</strong>
+                        <small>1 665 000+ статей</small>
+                    </a>
+                </div>
+                <div class="lang-container__item fra">
+                    <a href="#">
+                        <strong>Français</strong>
+                        <small>2 254 000+ articles</small>
+                    </a>
+                </div>
+                <div class="lang-container__item ita">
+                    <a href="#">
+                        <strong>Italiano</strong>
+                        <small>1 639 000+ voci</small>
+                    </a>
+                </div>
+                <div class="lang-container__item chi">
+                    <a href="#">
+                        <strong>中文</strong>
+                        <small>1 150 000+ 條目</small>
+                    </a>
+                </div>
+                <div class="lang-container__item por">
+                    <a href="#">
+                        <strong>Português</strong>
+                        <small>6 168 000+ artigos</small>
+                    </a>
+                </div>
+                <div class="lang-container__item ara">
+                    <a href="#">
+                        <strong>العربية</strong>
+                        <small>مقالة<small>1 068 000+</small></small>
+                    </a>
+                </div>
+            </section>
+        </section>
+        <section class="input-container">
+            <form action="" class="input-container__item">
+                <div class="form-item">
+                    <input type="text" name="" id="" class="text-input">
+                    <label for="">EN</label>
+                    <figure>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASYAAACrCAMAAAD8Q8FaAAAAY1BMVEX///8AAACioqKqqqqVlZWbm5umpqaenp6jo6OYmJjJycmtra2xsbGMjIyGhoaSkpKCgoLMzMx8fHzb29tkZGTDw8O1tbXl5eVpaWksLCwhISHu7u5DQ0PY2NgxMTFubm5eXl4PRwW0AAADaElEQVR4nO3di1biMBDG8cS79cqlgiir7/+Ue3IEDpQmmZRkJu18vxdg+DvFbm0XYwAAAAAAAAAAAAAAAAAAAAAAAAAAgNtq1jYL6SFOLZp2tpIe4th2bv+sG+lR9prlbqR5LT+8r/1EzncVU22/j0Zaf0mP47T21JX0QMbcdkaqYMe7lax9kx7p7WykVnqk1dlI1t7IjnTTM5L0R/lnz0yynfoq2U/JiYx56ptJtFNvJWuf5SYynmWS7OSpZP9JDeQsPENZ+ygz0KN3IMkTlSvvVDKd/JXstcQ8Oz/+sSQ6BSrZOf84B7+Bufg7hSrZJfc0R4KZ7C3vMN1z73oyrYOT8XYKV7I/nLN0+H797jEed8Ejzsr+U3MWmY1vnyK7ZO2Wa5I+seG4OkUrbXjm8Igdddbec4wRrWTvOMbwi87HsU/xSrLLRPh0Ytin+/gM4tdUPdcIGDsRKn2UnYBCuhOh0lPJ16eS7TSWSqROxU7uAtcoKqtkzLVYJ8IuSV5B6ZA67sZzxP2R2SfCEVfRLjkSncZXSaLTGCvxdxpnJe5OY61kzF188odcr0WoJHxRwI/QKdM+jXeXHK5OY94lh+e4exh5JZ53QHiNbJ+BpZR/D+PfJad0pynsklP2p8151lFWyd9DfOcc5ZXrRNjU0VQq12lKu+SUuao4tUqkTsn7RKjE8jfmnPJ3mmKl/J2mWYnyl/2UzyfC1Szmu/Nyydlpqrvk5Os03V1yYnf6UTtNuxLlNjFKJ0IloacacsnRiVBJ+Nm0y13eSUOlvmclzwSf4iLcnzCBSqROgfshCJXEn5rNg3DcefdJyy45w4+7ZzW75AztpKvS0E7aKg3rpK8SqVPn7m2NldL3SWclY16S9klrpbTj7kNtpZR9IlR6kX0vJVE76a5E7aS9EqlTi0qkTqhksnRSUClDJxWVLu6kpNKFndRUMuYVlUgG75OqSoP36VV6bm6DOinbJWdAJ3W75CR3UlkpuZPSSomd1FZK6qS4kjHvqERC3CfllYj7pL4SqRMqGUKnd+kJ6xDphF3aCXbCLh0EOqHSEW8nVDrh6YRKHXNUIunpJPkf61fr7L7oydzJnFezOY60qeALrirVHr7DbSn+7VZ1WzRtdd+bCAAAAAAAAAAAAAAAAAAAAAAAAAAAKf4DsVck0e10yPcAAAAASUVORK5CYII=" alt="">
+                    </figure>
+                </div>
+                <button type="submit"></button>
+                    <span class="search-icon"></span>
+            </form>
+        </section>
+        <section class="button-container">
+            <button>
+                <span class="language-icon"></span>
+                    Read Wikipedia in your language
+                <span class="picker-icon"></span>
+            </button>
+            <div class="hr-container">
+                <hr>
+                <hr>
+            </div>
+        </section>
+        <hr>
+        <section class="wikis-container">
+        </section>
+    </main>
+</body>
+</html>
